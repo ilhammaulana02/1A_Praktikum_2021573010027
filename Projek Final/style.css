@@ -1,0 +1,76 @@
+@media screen and (max-width: 900px){
+    nav{
+        width: 100%;
+    }
+  }
+  
+  {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+  }
+  nav {
+    float: left;
+    margin-top: 0px;
+  }
+  
+  nav ul{
+    background-color: rgb(77, 240, 113);
+    width: 1495px;
+    height: 50px;
+    margin: 0;
+    padding-left: 0;
+    overflow: hidden;
+  }
+  nav ul li {
+    display: inline-block;
+    width: auto;
+    margin-left: 20px;
+    padding-top: 14.8px;
+    margin-right: 45px;/jarak menu button satu dengan yang lainnya. /
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding-top: 15px;
+  }
+  
+  
+  
+  /konten halaman1*/
+  .column{
+    float:left;
+    width: 50%;
+    padding:15px;
+  }
+  
+  .card{
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2);
+    transition : 0.4s;
+    width: 60%;
+  
+  }
+  
+  .card:hover{
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+  }
+  .container{
+    height: 60px;
+    padding: 10px 10px;
+  
+  }
+  
+  p{
+    margin-top: 10px;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(44, 252, 2);
+    color: white;
+    text-align: center;
+  }
